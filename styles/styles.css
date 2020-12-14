@@ -15,3 +15,114 @@ html {
     font-size: 62.5%;
     font-family: 'Karla', sans-serif;
 }
+
+/* ---------------------------------------------------- */
+
+.container {
+    width: 100vw;
+    min-width: 320px;
+    height: 100vh;
+    background-color: var(--grayish-Blue);
+}
+
+.container__cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 40px 15px;
+}
+
+.container__cards--community,
+.container__cards--subscription,
+.container__cards--whyUs {
+    width: 100%;
+    height: 33%;
+    padding: 20px;
+}
+
+.container__cards--community {
+    background-color: var(--lightGray);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.container__cards--community h1 {
+    margin-bottom: 15px;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--cyan);
+}
+
+.container__cards--community p:first-of-type {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--bright-Yellow);
+}
+
+.container__cards--community p:last-of-type {
+    font-size: 1.4rem;
+    color: var(--grayish-Blue);
+}
+
+.container__cards--subscription {
+    background-color: var(--cyan);
+    color: var(--lightGray);
+}
+
+.container__cards--subscription h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.container__cards--subscription span {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.container__cards--subscription p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.container__cards--subscription p:last-of-type {
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+}
+
+.container__cards--subscription button {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--lightGray);
+    background-color: var(--bright-Yellow);
+    box-shadow: 2px 2px 1px 0px #00000030;
+    border-radius: 6px;
+    border: none;
+}
+
+.container__cards--whyUs {
+    color: var(--lightGray);
+    background-color: hsla(179, 62%, 43%, 0.5);
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.container__cards--whyUs h2 {
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.container__cards--whyUs p {
+    font-size: 1.4rem;
+    font-weight: 300;
+}
