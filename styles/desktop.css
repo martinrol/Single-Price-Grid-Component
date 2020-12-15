@@ -1,3 +1,7 @@
+.container {
+    height: 100vh;
+}
+
 .container__cards {
     display: grid;
     grid-template: 200px 250px / repeat(2, 400px);
