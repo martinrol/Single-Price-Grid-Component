@@ -34,6 +34,7 @@
     grid-area: container__cards--whyUs;
     width: 100%;
     height: 100%;
+    border-bottom-left-radius: 0px;
     border-bottom-right-radius: 6px;
 }
 
@@ -76,4 +77,8 @@
 
 .container__cards--whyUs p {
     font-size: 1.8rem;
+}
+
+.made-by {
+    text-align: start;
 }
