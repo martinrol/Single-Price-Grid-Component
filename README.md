@@ -7,4 +7,4 @@
 ### This project is a challenge by Frontend Mentor. 
 > I used HTML5 and CSS3 with displays grid and flexbox.
 
-> You can see the layout in the following link: https://martinrol.github.io/Single-Price-Grid-Component/index.html
+> You can see the layout in the following link: https://martinrol.github.io/Single-Price-Grid-Component-challenge3/index.html
